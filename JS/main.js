@@ -5,3 +5,4 @@ $(".skills #slider").slick({
     prevArrow: $(".skills").find(".prevArrow"),
     nextArrow: $(".skills").find(".nextArrow")
    });
+

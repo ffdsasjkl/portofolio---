@@ -6,11 +6,14 @@ header .inner{
     color: white;
     font-size: 14px;
 }  
-.titleArea h2{
-    color: white;
-    font-size: 20px;
-}
 
+.textArea h2{
+    color: white;
+    font-size: 24px;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 2;
+}
 /* main1 */
 
 .main1 .inner .imgArea{
@@ -21,17 +24,20 @@ header .inner{
     height: 560px;
     margin-left: 15%;
 }
-.main1 .inner .textArea h2{
-    color: white;
-}
-.main1 .inner .textArea{
+
+.titletArea{
     text-align: center;
 }
-.main1 .inner .textArea h2{
+.titletArea p{
+    color: white;
+    font-size: 14px;
+}  
+.titletArea h2{
+    color: white;
     font-size: 16px;
     margin-bottom: 20px;
+   
 }
-
 
 /* occasion, thought,determination*/ /* 슬라이드 하면 서로 조금씩 다른 타이밍에 글씨들 나옴 */
 /* 전체 텍스트 position으로 위치 잡아보기 */
@@ -120,6 +126,9 @@ footer .inner{
     justify-content: space-between;
     margin: 0 auto;
     padding: 40px;
+}
+footer .textArea strong{
+    border: none;
 }
 footer .textArea strong,
 footer .textArea p{

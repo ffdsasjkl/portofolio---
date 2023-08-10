@@ -34,13 +34,17 @@ header .headerMenu ul li a:hover{
 
 /* FOOTER */
 footer{
-    background: white;
+    background: black;
     text-align: center;
-    padding: 20px;
+    opacity: 0.8;   
+ }
+ footer .textArea strong{
+    border-top: 1px solid white;
  }
 
  footer .textArea strong,
  footer .textArea p{
     font-size: 14px;
-    color: black;
+    color: white;
+    padding: 20px;
  }
